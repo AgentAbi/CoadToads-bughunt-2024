@@ -2,8 +2,9 @@
 using namespace std;
 
 class A{
-    int variable;
+
 public: 
+int variable;
     A(){
         cout << "Object created" << endl;
         this->variable = 10;
